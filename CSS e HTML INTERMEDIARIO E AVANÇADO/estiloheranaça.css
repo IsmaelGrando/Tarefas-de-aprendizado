@@ -1,0 +1,13 @@
+/* HERENÇA*/
+.pagina {
+	color: red;
+} /* SE eu por isso em body, o resto vai ter pq é herança, é cascata*/
+
+/* ESPECIFICIDADE */
+p {
+
+}
+/* especifico pra p, ou div, ou outros, os seletores iguais sempre vai aplicar o ultimo colocado*/
+/* pode se usar !important, pra seloteores, usar com cautela*/
+/* o seletor mias especifico sempre será aplicado antes*/
+
